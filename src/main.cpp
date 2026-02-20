@@ -24,5 +24,5 @@ void loop() {
     }else {
         Serial.println("IR SENSOR: Obstacles detected");
     }
-    delay(1000);
+    delay(2000);
 }
