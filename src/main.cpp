@@ -20,7 +20,7 @@ void setup() {
 void loop() {
     int irValue = digitalRead(irPin);
     if (irValue == HIGH) {
-        Serial.println("IR SENSOR: NO Obstacles ");
+        Serial.println("IR SENSOR: NO Obstacles detected");
     }else {
         Serial.println("IR SENSOR: Obstacles detected");
     }
