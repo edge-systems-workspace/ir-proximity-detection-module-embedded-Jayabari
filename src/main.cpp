@@ -22,7 +22,7 @@ void loop() {
     if (irValue == HIGH) {
         Serial.println("IR SENSOR: NO Obstacles detected");
     }else {
-        Serial.println("IR SENSOR: Obstacles detected");
+        Serial.println("IR SENSOR: Obstacles found");
     }
     delay(2000);
 }
